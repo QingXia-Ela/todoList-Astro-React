@@ -1,0 +1,45 @@
+.list_box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 40px;
+    border: 1px solid #000;
+  }
+
+  .operate {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+
+    .full_check {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        margin-left: 5px;
+      }
+    }
+
+    .operate_button {
+      button {
+        border: 1px solid #000;
+        margin: 0 5px;
+        padding: 0 5px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
